@@ -1,0 +1,73 @@
+/* || General styles */
+@import './variables.scss';
+footer ul {
+  li {
+    font-size: 1.6vw;
+    line-height: 2.6667vw;
+    color: #d6d6d6;
+    font-weight: 700;
+    &:first-child {
+      font-weight: 900;
+      color: white;
+    }
+  }
+}
+
+/* || Typography */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.title {
+  font-size: 8vw;
+  line-height: 8.4vw;
+  font-weight: 700;
+  color: $secondary-color;
+}
+.description {
+  font-size: 2.4vw;
+  line-height: 1.51vw;
+  color: $primary-color;
+  font-weight: 400;
+}
+.seemore,
+textarea,
+button {
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  width: 117px;
+  height: 45.8px;
+  cursor: pointer;
+}
+input {
+  align-items: center;
+  justify-content: center;
+}
+textarea {
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 76px;
+  color: $primary-color;
+}
+.seemore {
+  line-height: 51px;
+  font-weight: 900;
+}
+.notes {
+  font-size: 30.72px;
+  line-height: 40.32px;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
